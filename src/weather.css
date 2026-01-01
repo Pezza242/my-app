@@ -1,0 +1,43 @@
+body {
+  background-color: rgb(62, 62, 62);
+  margin: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+.weather {
+  background-color: lightgrey;
+  border-top: 20px solid rgb(39, 38, 38);
+  border-radius: 2px;
+  width: 600px;
+  height: 500px;
+  margin: 0px auto;
+  margin-top: 25px;
+}
+
+.search-bar {
+  padding: 8px 10px;
+  padding-right: 100px;
+  border: 1px solid white;
+  border-radius: 4px;
+  margin: 25px 0px;
+  margin-left: 10px;
+}
+.submit {
+  background-color: #272626;
+  color: white;
+  padding: 10px 15px;
+  border: 1px solid #272626;
+  border-radius: 8px;
+  margin-left: 5px;
+}
+hr {
+  border: 0.2px solid #b4b4b4;
+}
+.city {
+  font-weight: 200;
+}
+.current-temperature {
+  font-weight: 400;
+  font-size: 32px;
+}
