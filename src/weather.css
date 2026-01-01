@@ -10,7 +10,7 @@ body {
   border-top: 20px solid rgb(39, 38, 38);
   border-radius: 2px;
   width: 600px;
-  height: 500px;
+  height: 400px;
   margin: 0px auto;
   margin-top: 25px;
 }
@@ -54,4 +54,12 @@ hr {
   margin-bottom: 30px;
   font-weight: 400;
   font-size: 22px;
+}
+a {
+  text-decoration: none;
+  color: #272626;
+}
+a:hover {
+  text-decoration: underline;
+  color: blue;
 }
