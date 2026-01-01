@@ -44,8 +44,14 @@ hr {
   font-size: 28px;
   text-align: center;
   margin-top: 10px;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
 }
 .icon {
   text-align: center;
+}
+.icon-description {
+  margin: 0px;
+  margin-bottom: 30px;
+  font-weight: 400;
+  font-size: 22px;
 }

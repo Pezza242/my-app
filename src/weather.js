@@ -18,6 +18,7 @@ export default function Weather() {
       <h2 className="current-temperature">18ºC</h2>
       <div className="icon">
         <Animation />
+        <p className="icon-description">Sunny</p>
       </div>
     </div>
   );
