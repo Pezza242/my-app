@@ -16,7 +16,9 @@ export default function Weather() {
       <hr />
       <h1 className="city">London</h1>
       <h2 className="current-temperature">18ºC</h2>
-      <Animation />
+      <div className="icon">
+        <Animation />
+      </div>
     </div>
   );
 }
