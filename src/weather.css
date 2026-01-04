@@ -5,14 +5,24 @@ body {
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
 }
-.weather {
+.weather-box {
   background-color: lightgrey;
-  border-top: 20px solid rgb(39, 38, 38);
+  border-top: 50px solid rgb(39, 38, 38);
   border-radius: 2px;
   width: 600px;
   height: 400px;
   margin: 0px auto;
   margin-top: 25px;
+}
+.weather-info {
+  position: relative;
+  bottom: 50px;
+}
+.date-and-time {
+  text-align: center;
+  position: relative;
+  bottom: 50px;
+  color: white;
 }
 
 .search-bar {

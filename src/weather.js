@@ -20,32 +20,40 @@ export default function Weather(props) {
     return city;
   }
   return (
-    <div className="weather">
-      <form className="form" onSubmit={handleSubmit}>
-        <input
-          type="search"
-          className="search-bar"
-          placeholder="Enter a city...."
-          onChange={updateCity}
-          required
-        />
-        <input type="submit" className="submit" />
-      </form>
-      <hr />
-      <h1 className="city">{city}</h1>
-      <h2 className="current-temperature">
-        {temperature}
-        <a className="Celsius" href="/" onClick={temperature}>
-          ºC
-        </a>
-        |{" "}
-        <a className="Farenheit" href="/" onClick={Farenheit}>
-          ºF
-        </a>
-      </h2>
-      <div className="icon">
-        <Animation />
-        <p className="icon-description">Sunny</p>
+    <div className="weather-box">
+      <div className="date-and-time">
+        <p className="date">
+          Thursday 1st January 2026
+          <span className="time"> 12:00</span>
+        </p>
+      </div>
+      <div className="weather-info">
+        <form className="form" onSubmit={handleSubmit}>
+          <input
+            type="search"
+            className="search-bar"
+            placeholder="Enter a city...."
+            onChange={updateCity}
+            required
+          />
+          <input type="submit" className="submit" />
+        </form>
+        <hr />
+        <h1 className="city">{city}</h1>
+        <h2 className="current-temperature">
+          {temperature}
+          <a className="Celsius" href="/" onClick={temperature}>
+            ºC
+          </a>
+          |{" "}
+          <a className="Farenheit" href="/" onClick={Farenheit}>
+            ºF
+          </a>
+        </h2>
+        <div className="icon">
+          <Animation />
+          <p className="icon-description">Sunny</p>
+        </div>
       </div>
     </div>
   );
