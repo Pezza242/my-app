@@ -42,7 +42,7 @@ export default function Weather(props) {
         <h1 className="city">{city}</h1>
         <h2 className="current-temperature">
           {temperature}
-          <a className="Celsius" href="/" onClick={temperature}>
+          <a className="Celsius" href="/">
             ºC
           </a>
           |{" "}
@@ -54,6 +54,25 @@ export default function Weather(props) {
           <Animation />
           <p className="icon-description">Sunny</p>
         </div>
+        <hr className="footer-line" />
+        <footer>
+          This project is an{" "}
+          <a
+            href="https://github.com/Pezza242/my-app"
+            target="_blank"
+            rel="noreferrer"
+          >
+            open-source code
+          </a>{" "}
+          made by{" "}
+          <a
+            href="https://github.com/Pezza242"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Peri Williams-Yearwood
+          </a>
+        </footer>
       </div>
     </div>
   );
